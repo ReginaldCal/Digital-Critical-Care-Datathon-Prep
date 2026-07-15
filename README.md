@@ -54,8 +54,4 @@ Reginald Caldecott, Bairbre McNicholas, Michael G. Madden, Tony McNicholas, Ayus
 ## License
 
 See the repository license file.
-````
-
-## Repository settings note (not part of the README)
-
-The repository DESCRIPTION field (the short "About" text in repo settings) contains a typo: "Preperation" should be "Preparation". Fix this in the GitHub repo settings, not in README.md.
+```
