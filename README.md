@@ -2,7 +2,7 @@
 
 **A Three-Module Curriculum Built from the ESICM Digital Critical Care Datathon 2026 Experience**
 
-Three free notebooks for ICU clinicians preparing for a clinical-data-science datathon. They cover finding the right data, building a cohort and organising a team analysis.
+Three free notebooks for ICU clinicians preparing for a clinical data science datathon. They cover finding the right data, building a cohort and organising a team analysis.
 
 ## Background
 
@@ -12,10 +12,10 @@ The curriculum draws on our SQL pipeline and the problems teams encountered at t
 
 The three Google Colab notebooks contain 100 cells: 44 code and 56 explanatory. Each follows the same sequence: clinical thinking, data translation and a sanity check.
 
-| Module | Learning objective | Pedagogical approach |
+| Module | Learning objective | What the module covers |
 |--------|--------------------|----------------------|
-| 1. Finding Your Way Around | Navigate an OMOP CDM dataset and validate concept selections | Pitfall-based: five real datathon errors, each with a worked fix |
-| 2. Cohort Workflow | Build a reproducible cohort from hypothesis to outcome classification | Clinical question to study cohort, measured at two clinical landmarks |
+| 1. Finding Your Way Around | Navigate an OMOP CDM dataset and validate concept selections | Five problems from the datathon, with worked examples |
+| 2. Cohort Workflow | Build a reproducible cohort from hypothesis to outcome classification | A clinical question, cohort criteria and measurements at two landmarks |
 | 3. BigTable Pattern | Coordinate parallel feature extraction in a shared team table | Define the shared table, assign columns to teammates and check their contributions |
 
 Notebooks in this repository:
@@ -26,18 +26,18 @@ Notebooks in this repository:
 
 ## Dataset and access
 
-The notebooks run against AmsterdamUMCdb mapped to the OMOP Common Data Model, queried through Google BigQuery. Because the cohort logic and the shared-table pattern use standard OMOP CDM, the curriculum transfers to any other OMOP-mapped ICU database. All notebooks run in Google Colab once dataset access has been granted, which makes the curriculum suitable for self-directed preparation before an event.
+The notebooks run against AmsterdamUMCdb mapped to the OMOP Common Data Model, queried through Google BigQuery. Because the cohort logic and the shared-table pattern use standard OMOP CDM, the curriculum transfers to any other OMOP-mapped ICU database. With dataset access, learners can run the notebooks in Google Colab before the event.
 
 ## Running the notebooks
 
 1. Request and confirm access to the AmsterdamUMCdb OMOP CDM BigQuery dataset.
 2. Open a module notebook in Google Colab.
 3. Set your BigQuery project in the configuration cell.
-4. Run the cells in order. Start with Module 1 if you are new to OMOP; teams can otherwise take only the modules that match their gaps.
+4. Run the cells in order. Start with Module 1 if you are new to OMOP, or choose the module you need.
 
 ## Curriculum design
 
-The curriculum was developed with Kern's six-step framework for medical curriculum design. Learning objectives are mapped to Bloom's revised taxonomy (knowledge, application, synthesis). The modular structure lets teams select the modules matching their skill gaps rather than working through everything.
+The curriculum was developed with Kern's six-step framework for medical curriculum design. Learning objectives are mapped to Bloom's revised taxonomy (knowledge, application, synthesis). Teams can work through the full curriculum or choose individual modules.
 
 ## Evaluation
 
