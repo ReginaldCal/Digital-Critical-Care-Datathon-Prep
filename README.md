@@ -2,21 +2,21 @@
 
 **A Three-Module Curriculum Built from the ESICM Digital Critical Care Datathon 2026 Experience**
 
-A freely available, modular curriculum that prepares ICU clinicians for clinical-data-science datathons. It closes the gap that datathons expose: participants must navigate an unfamiliar dataset, build a valid cohort, and coordinate a team analysis all at once, and none of it is taught in clinical training. The three notebooks let a clinician arrive already able to do the work.
+Three free notebooks for ICU clinicians preparing for a clinical-data-science datathon. They cover finding the right data, building a cohort and organising a team analysis.
 
 ## Background
 
-The curriculum was built directly from the SQL pipeline and lessons of the 2026 ESICM Digital Critical Care Datathon. Learner needs were drawn from the actual errors teams hit during the event, so the materials run against real data from the first cell. It is designed for ICU trainees and early-career intensivists, with no coding experience assumed.
+The curriculum draws on our SQL pipeline and the problems teams encountered at the 2026 ESICM Digital Critical Care Datathon. It is intended for ICU trainees and early-career intensivists, with explanations alongside the code.
 
 ## What's inside
 
-Three executable Google Colab notebooks, 100 cells in total (44 code, 56 explanatory), each anchoring technical steps in clinical reasoning through a recurring "clinical thinking, data translation, sanity check" structure.
+The three Google Colab notebooks contain 100 cells: 44 code and 56 explanatory. Each follows the same sequence: clinical thinking, data translation and a sanity check.
 
 | Module | Learning objective | Pedagogical approach |
 |--------|--------------------|----------------------|
 | 1. Finding Your Way Around | Navigate an OMOP CDM dataset and validate concept selections | Pitfall-based: five real datathon errors, each with a worked fix |
 | 2. Cohort Workflow | Build a reproducible cohort from hypothesis to outcome classification | Clinical question to study cohort, measured at two clinical landmarks |
-| 3. BigTable Pattern | Coordinate parallel feature extraction in a shared team table | Schema-first, parallel-safe design so teammates add columns at once without overwriting |
+| 3. BigTable Pattern | Coordinate parallel feature extraction in a shared team table | Define the shared table, assign columns to teammates and check their contributions |
 
 Notebooks in this repository:
 
