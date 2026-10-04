@@ -37,7 +37,7 @@ The notebooks run against AmsterdamUMCdb mapped to the OMOP Common Data Model, q
 
 ## Curriculum design
 
-The curriculum was developed with Kern's six-step framework for medical curriculum design. Learning objectives are mapped to Bloom's revised taxonomy (knowledge, application, synthesis). Teams can work through the full curriculum or choose individual modules.
+The curriculum was developed with Kern's six-step framework for medical curriculum design. Learning objectives are mapped to Bloom's taxonomy (knowledge, application, synthesis). Teams can work through the full curriculum or choose individual modules.
 
 ## Evaluation
 
